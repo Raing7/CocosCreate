@@ -1,10 +1,10 @@
 # CocosCreate
-CocosCreate开发拓展工具
+# CocosCreate开发拓展工具
 # CocosCreate网络请求拓展方法，封装原生xhr方法，封装wx.request 拓展CocosCreate loadImg方法
-#author:Raing7
-#QQ:837167752
-#邮箱:837167752@qq.com
-#有什么比较好用的功能可以继续添加
+# author:Raing7
+# QQ:837167752
+# 邮箱:837167752@qq.com
+# 有什么比较好用的功能可以继续添加
 
 
 # 安装
@@ -33,7 +33,7 @@ cc.ajax({
   timeout(){}                       |function,    //请求超时的回调方法，无接受参数
 })
 
-# 以上就是cc.ajax的调用方法， 跟jquery的调用方法基本一样，应该不难懂，没有添加请求完成的complete方法，在开发的项目中没有用到，就懒得加了,在cocosCreate中浏览器运行使用cc.ajax如果出现跨域问题，请后台配合一下 加一个允许所有访问，（PHP）百度搜索 PHP解决跨域 使用客户端 不会出现跨域问题，只有在浏览器中才会出现跨域问题。
+以上就是cc.ajax的调用方法， 跟jquery的调用方法基本一样，应该不难懂，没有添加请求完成的complete方法，在开发的项目中没有用到，就懒得加了,在cocosCreate中浏览器运行使用cc.ajax如果出现跨域问题，请后台配合一下 加一个允许所有访问，（PHP）百度搜索 PHP解决跨域 使用客户端 不会出现跨域问题，只有在浏览器中才会出现跨域问题。
 
 # wxs.ajax
 
