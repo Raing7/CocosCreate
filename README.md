@@ -19,7 +19,7 @@ XMLHttpRequest
 
 调用方法
 cc.ajax({
-  url:"www.baidu.com",      | string,  //接口地址
+  url:"www.baidu.com",      | string,  //接口地址 \n
   method:"get || post",     | string,  //默认值get 后台接受数据的方式 可以使用method设置提交方式也可以使用type
                                          设置提交方式 值可以为 post||POST||get||GET
   type:"get || post",       | string,  //默认值get 另外一种设置后台接受数据的方式 method跟type选择其中一个即可,
